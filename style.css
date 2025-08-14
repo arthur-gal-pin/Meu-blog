@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-image: url("assets/delta-rune-maker.gif");
+    font-family: inter;
+}
+
+header {
+    color: yellow;
+    text-align: center;
+    margin: 4px;
+    padding: 2px;
+    font-size: x-large;
+}
+
+header p {
+    font-size: medium;
+}
+
+nav {
+    color: pink;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /*Serve para ter caractéristicas de linha e ao mesmo tempo definir altura, largura margins e paddingins como um bloco (block)*/
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(239, 167, 179);
+    font-style: italic;
+}
+
+.Primeira_Secao {
+    text-align: center;
+    color: rgb(168, 17, 17);
+}
+
+main section div p{
+    font-size: large;
+    text-indent: 60px;
+    max-width: 1400px;
+    font-size: 25px;
+    line-height: xx-large;
+    color: aliceblue;
+} 
+
+.box {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  gap: 40px;            /* Espaço entre imagem e texto */
+  text-align: justify;
+  padding: 20px;
+}
+
+.box img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+    padding: 0.5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 99.89%;
+    height: 50px;
+
+}
+
+.img-clicavel {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.img-clicavel:hover {
+  transform: scale(1.05); /* leve zoom ao passar o mouse */
+}
+
+
+/*Seção para as páginas de interresses*/
+.Primeira_Secao_Inter h2 {
+    color:blueviolet;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.Primeira_Secao_Inter h3 {
+    color: rgb(210, 40, 40);
+    /* align-items: center; */
+    text-align: center;
+    /* margin: 300px; */
+    padding: 0px 200px 0px 200px;
+    /* max-width: 70%; */
+}

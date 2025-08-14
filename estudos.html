@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Mim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com&quot; />
+    <link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script>
+        function tocarAudio() {
+            const audio = document.getElementById("audio-susie");
+            audio.currentTime = 0; // Reinicia do começo, se estiver já tocando
+            audio.play();
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>PÁGINA DE BLOG DE ARTHUR RODRIGUES</h1>
+        <p>Informações divertidas sobre a minha pessoa</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="interesses.html">Meus Interresses</a></li>
+            <li><a href="estudos.html">Estudos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="Primeira_Secao">
+            <h2>Bem vindo à página que contém curiosidades, fatos e divagações minhas sobre mim mesmo</h2>
+            <p>Esta é uma página sobre a minha pessoa</p>
+        </section>
+        <section class="Segundo">
+            <div class="box">
+                <img src="assets/susie-deltarune.gif" alt="Susie Deltarune dando risada." class="img-clicavel" onclick="tocarAudio()">
+                <audio id="audio-susie" src="assets/susie-laugh.mp3"></audio>
+                <p> Meu nome é Arthur Rodrigues Galvez Souza Pinto. Atualmente tenho 16 anos. Estudo no SESI, Serviço Social da Industria no segundo ano do Ensino Médio, e curso meu ensino técnico no SENAI, Serviço Nacional de Aprendizagem Industrial, como analista em desenvolvimento de sistemas. Minhas coisas favoritas são aprender, me divertir com meus amigos e a minha família, ler, jogar videogame e RPG, e programar.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados à mim mesmo :P</p>
+    </footer>
+</body>
+</html>
