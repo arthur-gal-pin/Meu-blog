@@ -58,6 +58,7 @@ main section div p{
     color: aliceblue;
 } 
 
+
 .box {
   display: flex;
   align-items: center; /* Alinha verticalmente */
@@ -108,4 +109,12 @@ footer {
     /* margin: 300px; */
     padding: 0px 200px 0px 200px;
     /* max-width: 70%; */
+}
+
+.Body_Interesses {
+    color: cyan;
+}
+
+h2.Body_Interesses {
+    color: cyan;
 }
