@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Interesses - Arthur Rodrigues</title>
+    <style>
+        body {
+            background: url('https://i.imgur.com/9h5A0jF.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        h1 {
+            color: yellow;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        h2 {
+            color: violet;
+            margin-top: 40px;
+        }
+
+        .interesse {
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            max-width: 700px;
+            font-size: 18px;
+        }
+
+        .interesse img {
+            width: 300px;
+            border-radius: 12px;
+            margin-top: 15px;
+            box-shadow: 0px 0px 10px black;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: black;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PÁGINA DE BLOG DE ARTHUR RODRIGUES</h1>
+        <p><i>Um pouco sobre o que eu gosto 🎭</i></p>
+    </header>
+
+    <main>
+        <h2>🎮 Meu jogo preferido</h2>
+        <div class="interesse">
+            DELTARUNE
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/Deltarune_Chapter_1.png" alt="Deltarune">
+        </div>
+
+        <h2>🎬 Meu filme preferido</h2>
+        <div class="interesse">
+            Interstellar
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Interstellar">
+        </div>
+
+        <h2>📺 Minha série preferida</h2>
+        <div class="interesse">
+            Mr. Robot
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/MrRobotPoster.jpg" alt="Mr Robot">
+        </div>
+
+        <h2>🎵 Minha banda preferida</h2>
+        <div class="interesse">
+            Pink Floyd
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png" alt="Pink Floyd Dark Side">
+        </div>
+
+        <h2>📚 Minha matéria preferida</h2>
+        <div class="interesse">
+            Física
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Albert_Einstein_1921_portrait2.jpg" alt="Física">
+        </div>
+
+        <h2>🤔 Meu filósofo preferido</h2>
+        <div class="interesse">
+            Friedrich Nietzsche
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Nietzsche187a.jpg" alt="Nietzsche">
+        </div>
+
+        <h2>🔬 Meu cientista preferido</h2>
+        <div class="interesse">
+            Richard Feynman
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Richard_Feynman_Nobel.jpg" alt="Feynman">
+        </div>
+
+        <h2>📖 Meu mangá preferido</h2>
+        <div class="interesse">
+            Berserk
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Berserk_vol01.png" alt="Berserk">
+        </div>
+
+        <h2>🌸 Meu anime preferido</h2>
+        <div class="interesse">
+            Neon Genesis Evangelion
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Evangelionposter.jpg" alt="Evangelion">
+        </div>
+    </main>
+
+    <footer>
+        © Todos os direitos reservados a mim mesmo :P
+    </footer>
+</body>
+</html>
